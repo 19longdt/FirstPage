@@ -157,16 +157,7 @@
                     link.value = "Check Bills";
                 }
             }
- <input type="button" onclick="check1()" value="Check FeedBack" id="link1">
-                        <div class="feed" >  <form id="fbcheck">
-                                <c:if test ="${fb != null}">
-                                    <div class="alert alert-dark" role="alert">${fb}</div>
-                                </c:if>
-                                <c:if test ="${fb == null}">
-                                    <jsp:include page="ManagerFeedBack.jsp"></jsp:include>
-                                </c:if>
-                            </form>
-                        </div>
+
             function check1() {
                 var link1 = document.getElementById("link1");
                 var form1 = document.getElementById("fbcheck");
